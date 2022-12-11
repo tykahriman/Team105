@@ -2,7 +2,7 @@ package ders32_inheritanceConstructorCall;
 
 public class Corolla extends BToyota {
 
-    Corolla(int pc){
+   /* Corolla(int pc){
 
         System.out.println("Parametresiz Corolla constructor");
     }
@@ -14,11 +14,13 @@ public class Corolla extends BToyota {
         System.out.println("Parametreli corollan constructors");
     }
 
+    */
+
     public static void main(String[] args) {
         Corolla corolla1 = new Corolla();
 
 
-        Corolla corolla2 = new Corolla(3);
+        //Corolla corolla2 = new Corolla(3);
 
     }
 
